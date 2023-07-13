@@ -23,6 +23,6 @@ Challenge 1:
 ## Architecture
 The project is structured as a single console application project in Visual Studio. All the code is written in the Program.cs file. Each challenge is implemented as a separate method, which is called from the main method.
 
-##Change Log
+## Change Log
 Version 1.0.0: Initial release 7/13/2023
 
