@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\staym\\Documents\\GitHub\\Lab03-Review\\Lab03-Review.csproj",
+      "projectUniqueName": "C:\\Users\\staym\\Documents\\GitHub\\Lab03_Review\\Lab03-Review.csproj",
       "projectName": "Lab03-Review",
-      "projectPath": "C:\\Users\\staym\\Documents\\GitHub\\Lab03-Review\\Lab03-Review.csproj",
+      "projectPath": "C:\\Users\\staym\\Documents\\GitHub\\Lab03_Review\\Lab03-Review.csproj",
       "packagesPath": "C:\\Users\\staym\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\staym\\Documents\\GitHub\\Lab03-Review\\obj\\",
+      "outputPath": "C:\\Users\\staym\\Documents\\GitHub\\Lab03_Review\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

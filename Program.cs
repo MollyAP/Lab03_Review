@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace Lab03_Review
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Challenge1();
             Challenge2();
@@ -19,7 +19,7 @@ namespace Lab03_Review
             Challenge9();
         }
 
-        static void Challenge1()
+        public static void Challenge1()
         {
             Console.Write("Please enter 3 numbers: ");
             string input = Console.ReadLine();
@@ -37,7 +37,7 @@ namespace Lab03_Review
             Console.WriteLine("The product of these 3 numbers is: " + product);
         }
 
-        static void Challenge2()
+        public static void Challenge2()
         {
             Console.Write("Please enter a number between 2-10: ");
             int count;
@@ -60,7 +60,7 @@ namespace Lab03_Review
             Console.WriteLine("The average of these " + count + " numbers is: " + average);
         }
 
-        static void Challenge3()
+        public static void Challenge3()
         {
             int size = 5;
             for (int i = 0; i < size * 2 - 1; i++)
@@ -73,7 +73,7 @@ namespace Lab03_Review
             }
         }
 
-        static void Challenge4()
+        public static void Challenge4()
         {
             Console.WriteLine("Enter a series of numbers separated by commas:");
             string input = Console.ReadLine();
@@ -92,7 +92,7 @@ namespace Lab03_Review
             Console.WriteLine("The most frequent number is: " + mostFrequent);
         }
 
-       static void Challenge5()
+        public static void Challenge5()
         {
             Console.WriteLine("Enter a series of numbers separated by commas:");
             string input = Console.ReadLine();
@@ -128,7 +128,7 @@ namespace Lab03_Review
             }
         }
 
-        static void Challenge6()
+        public static void Challenge6()
         {
             Console.Write("Enter a word: ");
             string word = Console.ReadLine();
@@ -141,7 +141,7 @@ namespace Lab03_Review
             Console.WriteLine("Word saved to words.txt.");
         }
 
-       static void Challenge7()
+        public static void Challenge7()
         {
             string[] lines = File.ReadAllLines("words.txt");
             foreach (string line in lines)
@@ -152,7 +152,7 @@ namespace Lab03_Review
 
 
 
-       static void Challenge8()
+        public static void Challenge8()
         {
             string[] lines = File.ReadAllLines("words.txt");
             if (lines.Length > 0)
@@ -176,7 +176,7 @@ namespace Lab03_Review
         }
 
 
-        static void Challenge9()
+        public static void Challenge9()
         {
             Console.Write("Enter a sentence: ");
             string sentence = Console.ReadLine();
