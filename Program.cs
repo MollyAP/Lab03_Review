@@ -17,6 +17,7 @@ namespace Lab03_Review
             Challenge7();
             Challenge8();
             Challenge9();
+            Challenge7();
         }
 
         public static void Challenge1()
